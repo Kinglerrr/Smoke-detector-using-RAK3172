@@ -3,9 +3,9 @@
     <td><a href="#main-title">Máy dò khói RAK3172</a></td>
         <td valign="top" rowspan="99">
         <div style="border: 2px dashed #ccc; padding: 40px 80px; text-align: center; color: #888; font-family: sans-serif; min-height: 100px;">
-            (Banner dự án của bạn)
+            (Something ismissing)
             <br><br>
-            (Ví dụ: Liên kết Discord, Hình ảnh...)
+            ()
         </div>
     </td>
   </tr>
