@@ -4,169 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>README - Máy dò khói RAK3172</title>
-    <style>
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-            line-height: 1.6;
-            background-color: #f6f8fa;
-            color: #24292e;
-            margin: 0;
-            padding: 0;
-        }
-        .container {
-            max-width: 900px;
-            margin: 20px auto;
-            padding: 25px;
-            background-color: #ffffff;
-            border: 1px solid #e1e4e8;
-            border-radius: 6px;
-        }
-        
-        /* --- Bố cục Mục lục & Banner (như ví dụ) --- */
-        .header-layout {
-            width: 100%;
-            border-collapse: collapse;
-            margin-bottom: 20px;
-        }
-        .header-layout .toc-cell {
-            width: 250px; /* Độ rộng cố định cho mục lục */
-            vertical-align: top;
-            padding-right: 20px;
-        }
-        .header-layout .toc-cell a {
-            text-decoration: none;
-            color: #0366d6;
-        }
-        .header-layout .toc-cell a:hover {
-            text-decoration: underline;
-        }
-        .header-layout .banner-cell {
-            width: auto; /* Phần còn lại cho banner */
-            vertical-align: top;
-        }
-        .header-layout .banner-placeholder {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            height: 100px;
-            background-color: #f1f1f1;
-            border: 2px dashed #ccc;
-            border-radius: 6px;
-            color: #888;
-            font-style: italic;
-        }
-        
-        /* --- Badges --- */
-        .badges {
-            margin-top: 10px;
-            margin-bottom: 20px;
-        }
-        .badges img {
-            height: 20px;
-            margin-right: 5px;
-            display: inline-block;
-        }
-        
-        /* --- Hướng dẫn nhanh (Quick Guide) --- */
-        .quick-guide details {
-            margin-bottom: 8px;
-            border: 1px solid #e1e4e8;
-            border-radius: 6px;
-        }
-        .quick-guide summary {
-            padding: 10px 15px;
-            font-weight: 600;
-            cursor: pointer;
-            background-color: #f6f8fa;
-        }
-        .quick-guide summary:hover {
-            background-color: #f1f1f1;
-        }
-        .quick-guide details[open] {
-            padding: 15px;
-            padding-top: 5px;
-        }
-        .quick-guide a {
-            color: #0366d6;
-            font-weight: bold;
-        }
-
-        /* --- Các thành phần chuẩn --- */
-        h1, h2, h3 {
-            border-bottom: 1px solid #eaecef;
-            padding-bottom: .3em;
-            margin-top: 24px;
-            margin-bottom: 16px;
-            font-weight: 600;
-        }
-        h1 { font-size: 2.25em; }
-        h2 { font-size: 1.75em; }
-        h3 { font-size: 1.25em; }
-        p {
-            margin-top: 0;
-            margin-bottom: 16px;
-        }
-        img.schematic {
-            max-width: 100%;
-            height: auto;
-            border: 1px solid #ddd;
-            border-radius: 4px;
-            padding: 5px;
-            background-color: #fff;
-            display: block;
-            margin: 10px auto;
-        }
-        ul, ol {
-            padding-left: 2em;
-            margin-top: 0;
-            margin-bottom: 16px;
-        }
-        li {
-            margin-bottom: 6px;
-        }
-        table.pinout {
-            border-collapse: collapse;
-            border-spacing: 0;
-            width: 100%;
-            margin-bottom: 16px;
-            display: block;
-            overflow: auto;
-        }
-        table.pinout th, table.pinout td {
-            padding: 10px 15px;
-            border: 1px solid #dfe2e5;
-        }
-        table.pinout th {
-            background-color: #f6f8fa;
-            font-weight: 600;
-        }
-        table.pinout tr:nth-child(even) {
-            background-color: #f6f8fa;
-        }
-        pre {
-            background-color: #f6f8fa;
-            border: 1px solid #e1e4e8;
-            border-radius: 6px;
-            padding: 16px;
-            overflow: auto;
-            line-height: 1.45;
-        }
-        code {
-            font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
-            font-size: 0.9em;
-            background-color: rgba(27,31,35,.05);
-            border-radius: 3px;
-            padding: .2em .4em;
-        }
-        pre > code {
-            background-color: transparent;
-            padding: 0;
-            border-radius: 0;
-        }
-        strong {
-            font-weight: 600;
-        }
-    </style>
 </head>
 <body>
     <div class="container">
@@ -185,8 +22,8 @@
                 </td>
                 
                 <td class="banner-cell">
-                    <div class="banner-placeholder">
-                        (Đây là nơi đặt Banner, ví dụ: Discord)
+                    <div class="banner-placeholder" style="border: 2px dashed #ccc; padding: 40px; text-align: center; color: #888;">
+                        (Đây là nơi đặt Banner)
                     </div>
                 </td>
             </tr>
@@ -202,15 +39,15 @@
         <h1 id="top">Máy dò khói sử dụng RAK3172 với LoRaWAN</h1>
         
         <div class="badges">
-            <img alt="Hardware" src="https://img.shields.io/badge/Hardware-RAK3172-blue?style=flat&logo=rakwireless">
-            <img alt="Protocol" src="https://img.shields.io/badge/Protocol-LoRaWAN-orange?style=flat&logo=lora">
-            <img alt="License" src="https://img.shields.io/badge/License-MIT-green?style=flat">
-            <img alt="Language" src="https://img.shields.io/badge/Language-C++%20(Arduino)-blueviolet?style=flat&logo=cplusplus">
+            <img alt="Hardware" src="https://img.shields.io/badge/Hardware-RAK3172-blue?style=flat&logo=rakwireless" height="20">
+            <img alt="Protocol" src="https://img.shields.io/badge/Protocol-LoRaWAN-orange?style=flat&logo=lora" height="20">
+            <img alt="License" src="https://img.shields.io/badge/License-MIT-green?style=flat" height="20">
+            <img alt="Language" src="https://img.shields.io/badge/Language-C++%20(Arduino)-blueviolet?style=flat&logo=cplusplus" height="20">
         </div>
         
         <p>Dự án này là một thiết bị dò khói thông minh sử dụng mô-đun RAK3172, có khả năng kết nối LoRaWAN. Thiết bị được thiết kế để tiết kiệm năng lượng bằng cách sử dụng chế độ ngủ sâu và một máy trạng thái (state machine) để xử lý logic báo động một cách đáng tin cậy.</p>
         
-        <img class="schematic" src="kinglerrr/smoke-detector-using-rak3172/Smoke-detector-using-RAK3172-c89e80f68978ae7cde9dc17f3c26443eaf579467/Schematic-image.jpg" alt="Sơ đồ mạch">
+        <img class="schematic" src="kinglerrr/smoke-detector-using-rak3172/Smoke-detector-using-RAK3172-c89e80f68978ae7cde9dc17f3c26443eaf579467/Schematic-image.jpg" alt="Sơ đồ mạch" width="100%">
 
         <h2 id="quick-guide">Hướng dẫn nhanh</h2>
         <div class="quick-guide">
@@ -247,7 +84,7 @@
         
         <h2 id="pinout">Cấu hình phần cứng (Pinout)</h2>
         <p>Sơ đồ mạch và mã nguồn (<code>otaa1.ino</code>) xác định các chân sau:</p>
-        <table class="pinout">
+        <table class="pinout" border="1" style="border-collapse: collapse; width: 100%;">
             <thead>
                 <tr>
                     <th>Chân RAK3172</th>
