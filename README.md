@@ -3,11 +3,6 @@
     <td><a href="#main-title">RAK3172 Smoke Detector</a></td>
         <td valign="top" rowspan="99">
         <div style="border: 2px dashed #ccc; padding: 40px 80px; text-align: center; color: #888; font-family: sans-serif; min-height: 100px;">
-            (Your Project Banner)
-            <br><br>
-            (e.g., Discord Link, Image...)
-        </div>
-    </td>
   </tr>
   <tr>
     <td>&emsp;<a href="#quick-guide">Quick Guide</a></td>
