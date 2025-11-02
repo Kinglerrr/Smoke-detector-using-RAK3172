@@ -3,11 +3,8 @@
     <td><a href="#main-title">Máy dò khói RAK3172</a></td>
         <td valign="top" rowspan="99">
         <div style="border: 2px dashed #ccc; padding: 40px 80px; text-align: center; color: #888; font-family: sans-serif; min-height: 100px;">
-            (Something ismissing)
-            <br><br>
-            ()
-        </div>
-    </td>
+            
+       
   </tr>
   <tr>
     <td>&emsp;<a href="#quick-guide">Hướng dẫn nhanh</a></td>
