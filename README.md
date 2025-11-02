@@ -71,7 +71,7 @@
 <p>
   This project is a smart smoke detector using the RAK3172 module, featuring LoRaWAN connectivity. The device is designed for energy efficiency by using deep sleep and a state machine to reliably handle alarm logic.
   <br>
-  <img alt="Schematic" src="kinglerrr/smoke-detector-using-rak3172/Smoke-detector-using-RAK3172-c89e80f68978ae7cde9dc17f3c26443eaf579467/Schematic-image.jpg" width="800">
+  <img alt="Schematic" src="https://github.com/Kinglerrr/Smoke-detector-using-RAK3172/blob/main/Schematic-image.jpg" width="800">
 </p>
 
 <h2 id="features">Features</h2>
